@@ -34,9 +34,44 @@
 .catg-bdr{
     box-sizing: border-box;
     border-radius: 7px;
-    box-shadow: 2px 2px 30px #f5dfbd;
+    box-shadow: 2px 2px 30px #dedede;
 }
 .catg-img:hover{
     transform: scale(0.9, 0.9);
+    transition: 1s;
+}
+.btn-bg{
+    color: #Fc8934;
+    font-weight: 700;
+    border-radius: 30px solid #Fc8934;
+    width: 400px;
+}
+.btn-cart-bg:hover{
+    color: #FFFFFF;
+   background-color: #Fc8934;
+}
+.btn-pdct-bg{
+    color: #FFFFFF;
+    background-color: #Fc8934;
+    font-weight: 700;
+    border-radius: 30px solid #Fc8934;
+    width: 100px;
+    height: 30px;
+
+}
+.text-over{
+    width: 200px;
+    height: 20px;
+    white-space: nowrap;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.text-over p{
+    text-overflow:ellipsis ;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+.text-over:hover{
+    color: #b8b6b6;
     transition: 1s;
 }
