@@ -60,7 +60,7 @@
 
 }
 .text-over{
-    width: 200px;
+    width: 170px;
     height: 20px;
     white-space: nowrap;
     margin-bottom: 40px;
@@ -74,4 +74,45 @@
 .text-over:hover{
     color: #b8b6b6;
     transition: 1s;
+}
+.prc-pTag{
+    font-size: 13px;
+}
+.btn-rdmPdct-bg{
+    color: #Fc8934;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 30px solid #Fc8934;
+    width: 160px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1S;
+
+}
+.btn-rdmPdct-bg:hover{
+    background-color: #Fc8934;
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+.btn-allPdct-bg{
+    color: #FFFFFF;
+    background-color: #Fc8934;
+    font-weight: 700;
+    border-radius: 30px solid #Fc8934;
+    width: 160px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1S;
+
+}
+.btn-allPdct-bg:hover{
+    background-color: #Fc8934;
+    color: #FFFFFF;
+    transform: scale(1.1);
 }
